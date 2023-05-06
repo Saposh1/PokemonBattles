@@ -1,0 +1,35 @@
+Types
+Psychic,Fire,Water,Ground,Poison,Grass,Ice,Steel,Electric
+Grass effective-against-other:Water,Ground
+Ground effective-against-other:Fire,Electric
+Grass effective-against-me:Steel,Water
+Water effective-against-me:Grass,Electric
+Psychic effective-against-me:Electric,Poison,Fire
+Ice effective-against-me:Fire
+Ground effective-against-me:Water,Grass,Ice
+Electric effective-against-other:Water
+Grass effective-against-me:Fire,Ice
+Psychic effective-against-other:Ground,Steel
+Fire effective-against-me:Water,Ground
+Steel effective-against-other:Ice,Grass,Poison
+Ice effective-against-other:Grass,Ground
+Water effective-against-other:Fire,Ground
+Poison effective-against-me:Fire
+Pokemons
+Bulbasaur,SeedPokemon,0.7,6.9,49,Grass
+Onix,RockSnakePokemon,8.8,210.0,45,Ground
+Alakazam,PsiPokemon,1.5,48.0,50,Psychic
+Psyduck,DuckPokemon,0.8,19.6,52,Water
+Ponyta,FireHorsePokemon,1.0,30.0,85,Fire
+Magnemite,MagnetPokemon,0.3,6.0,35,Electric
+Jynx,HumanShapePokemon,1.4,40.6,50,Ice
+Seel,SeaLionPokemon,1.1,90.0,45,Water
+Pikachu,MousePokemon,0.4,6.0,55,Electric
+Bayleef,LeafPokemon,1.2,15.8,62,Grass
+Cubone,LonelyPokemon,0.4,6.5,50,Ground
+Klang,GearPokemon,0.6,51.0,80,Steel
+Charmander,LizardPokemon,0.6,8.5,52,Fire
+Oddish,WeedPokemon,0.5,5.4,50,Grass
+Arbok,CobraPokemon,3.5,65.0,95,Poison
+Squirtle,TinyTurtlePokemon,0.5,9.0,48,Water
+Lapras,TransportPokemon,2.5,220.0,85,Ice

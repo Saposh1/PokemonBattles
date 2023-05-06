@@ -1,0 +1,31 @@
+==4365== Memcheck, a memory error detector
+==4365== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4365== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==4365== Command: /home/ise/PokemonPart1ScriptOutputChecker/PokemonsBattle 4 4 FullRunData.txt
+==4365== Parent PID: 4351
+==4365== 
+==4365== 
+==4365== Process terminating with default action of signal 1 (SIGHUP)
+==4365==    at 0x49711E7: write (write.c:26)
+==4365==    by 0x48F200C: _IO_file_write@@GLIBC_2.2.5 (fileops.c:1181)
+==4365==    by 0x48F3AD0: new_do_write (fileops.c:449)
+==4365==    by 0x48F3AD0: _IO_new_do_write (fileops.c:426)
+==4365==    by 0x48F3AD0: _IO_do_write@@GLIBC_2.2.5 (fileops.c:423)
+==4365==    by 0x48F4012: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:784)
+==4365==    by 0x48E7719: puts (ioputs.c:41)
+==4365==    by 0x10A362: main (in /home/ise/PokemonPart1ScriptOutputChecker/PokemonsBattle)
+==4365== 
+==4365== HEAP SUMMARY:
+==4365==     in use at exit: 6,346 bytes in 62 blocks
+==4365==   total heap usage: 111 allocs, 49 frees, 11,714 bytes allocated
+==4365== 
+==4365== LEAK SUMMARY:
+==4365==    definitely lost: 0 bytes in 0 blocks
+==4365==    indirectly lost: 0 bytes in 0 blocks
+==4365==      possibly lost: 0 bytes in 0 blocks
+==4365==    still reachable: 6,346 bytes in 62 blocks
+==4365==         suppressed: 0 bytes in 0 blocks
+==4365== Rerun with --leak-check=full to see details of leaked memory
+==4365== 
+==4365== For lists of detected and suppressed errors, rerun with: -s
+==4365== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
