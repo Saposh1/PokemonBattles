@@ -1,5 +1,8 @@
 # PokemonBattles
-![Alt Text](https://media4.giphy.com/media/aNFT7eG2rIKK715uLk/giphy.gif)
+<p align="center">
+<img src="https://media4.giphy.com/media/aNFT7eG2rIKK715uLk/giphy.gif" width="500" height="300"/>
+</>
+
 
 In the following project (as part of advanced programming course), i created a system of pokemon battles.     
 The system contains a Pokedex which includes all the Pokemons that are currently in the system, followed by basic data about them
