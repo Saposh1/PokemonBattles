@@ -13,4 +13,10 @@ MaxHeap - which contains the implementations of all the functions required for a
 BattleByCategory - in which the implementations of all the functions required for the battle phase are found.   
 Defs.h - contains the enums defined in the work (bool, status) and additional definitions given in the work file.    
 MainSecond.c – contains the step of reading from the file, and then implementing the menu according to CASES.     
- In addition, the MAIN handles calls to functions that deals with memory releases and performs an orderly exit from the program if necessary.
+ In addition, the MAIN handles calls to functions that deals with memory releases and performs an orderly exit from the program if necessary.   
+ 
+ Data Structures in he project -  
+ <img src="https://user-images.githubusercontent.com/103626425/236801429-7ff0e8be-29e4-4600-9733-b18e86cf8e1d.png" width="600" height="350"/>
+
+
+
